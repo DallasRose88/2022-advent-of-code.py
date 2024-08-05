@@ -1,7 +1,6 @@
 f = open('Trial2.txt','r')
 
 total = 0
-letters = []
 for line in f:
     letter = ''
     a = (len(line.strip()))
