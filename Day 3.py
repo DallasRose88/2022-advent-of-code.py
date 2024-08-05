@@ -11,7 +11,6 @@ for line in f:
     for x in first:
         if x in second:
             letter = x 
-    letter= '
     num = ord(letter)
     if num > 90:
         num -=96
